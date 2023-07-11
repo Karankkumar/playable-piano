@@ -6,7 +6,7 @@ let allkeys = [];
 let audio = new Audio();
 
 const playTune = (key) => {
-    audio.src = `tunes/${key}.wav` // passing audio src based on key pressed
+    audio.src = `${key}.wav` // passing audio src based on key pressed
     audio.play();
     // console.log(allkeys);
 
